@@ -85,7 +85,7 @@ public class login {
     public void userInputPersonalInformation() throws InterruptedException {
         driver.findElement(By.id("first-name")).sendKeys("Haendy");
         Thread.sleep(1000);
-        driver.findElement(By.id("last-name")).sendKeys("Safira");
+        driver.findElement(By.id("last-name")).sendKeys("Haendy");
         Thread.sleep(1000);
         driver.findElement(By.id("postal-code")).sendKeys("12345");
     }
